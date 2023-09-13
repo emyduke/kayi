@@ -107,7 +107,7 @@ body {
 }
 
 #getting-started span.counter {
-    background-color: #000;
+    background-color: #fc0404;
     padding: 10px;
     border-radius: 4px;
     color: #fff;
@@ -197,10 +197,10 @@ p.coll-cap {
     height: 30px;
     width: 30px;
     border-radius: 25px;
-    background-color: #fff;
+    background-color: #000;
     margin: 5px;
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 @media only screen and (max-width: 750px) {
