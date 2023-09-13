@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Kayi Bank | Coming Soon</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/kayilogo.svg" type="image/png" sizes="​16x16">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu|Poppins|Inter" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/jquery.min.js"></script>
+
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-dark fixed-top " style="background-color: rgba(60,188,109,0.2);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/kayilogo.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-light"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/kayilogo.svg" alt="">
+                    </a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark active" aria-current="page" href="#">About</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="overlay">
+        <!-- <div class="element-right">
+            <img src="images/kayi-rotate.png" alt="">
+        </div> -->
+        <div class="content">
+
+
+            <h3 class="coll-cap">
+                Empowering Financial
+                Inclusion Through <br />
+                Innovation & Excellence.</h3>
+
+
+            <div class="coming_soon">We are coming soon!</div>
+
+            <div style="margin-top: 20px; margin-bottom: 20px;">
+                <div id="getting-started"></div>
+            </div>
+            <script type="text/javascript">
+                $("#getting-started")
+                    .countdown("2023/10/01", function (event) {
+                        $(this).html(
+                            event.strftime(`
+                <span class="counter-container"><span class="counter">%D</span> <span class="counter-text">days</span></span>
+                <span class="counter-container"><span class="counter">%H</span> <span class="counter-text">Hours</span></span>
+                <span class="counter-container"><span class="counter">%M</span> <span class="counter-text">Minutes</span></span>
+                <span class="counter-container"><span class="counter">%S</span> <span class="counter-text">Seconds</span></span>
+                `)
+                        );
+                    });
+            </script>
+
+            <a href="" class="btn">
+                <!-- <div>
+                    <label class="slots">789,900 Slots</label>
+                    <label class="remaining">Remaining</label>
+                </div> -->
+                <img src="images/caret-down.png" alt="">
+            </a>
+
+            <p class="coll-cap">
+                We have a strong focus on financial inclusion and leveraging<br />
+                emerging technologies, we aim to revolutionize the banking<br />
+                landscape in Nigeria and across Africa.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
