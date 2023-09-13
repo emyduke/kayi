@@ -184,6 +184,25 @@ p.coll-cap {
     height: 20px;
 }
 
+.social-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+    background-color: #fff;
+    margin: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
 @media only screen and (max-width: 750px) {
     .element-right {
         z-index: -1;
