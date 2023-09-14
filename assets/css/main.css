@@ -203,6 +203,20 @@ p.coll-cap {
     color: #fff;
 }
 
+.carousel{
+    
+}
+.carousel div{
+    width: 300px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+.carousel div img{
+    width: 100%;
+    border-radius: 8px;
+}
+
 @media only screen and (max-width: 750px) {
     .element-right {
         z-index: -1;
