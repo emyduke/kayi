@@ -21,7 +21,7 @@ body {
     /* background-image: -webkit-linear-gradient(bottom, #5d0590, #a200ff,#faba0d);
             background-image: linear-gradient(to bottom right, #5d0590, #a200ff,#faba0d); */
 
-    background-image: url(../../images/kayilanding.png);
+    background-image: url(../../images/banners/9.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -203,7 +203,7 @@ p.coll-cap {
     color: #fff;
 }
 
-.carousel{
+/* .carousel{
     
 }
 .carousel div{
@@ -215,7 +215,7 @@ p.coll-cap {
 .carousel div img{
     width: 100%;
     border-radius: 8px;
-}
+} */
 
 @media only screen and (max-width: 750px) {
     .element-right {
@@ -227,6 +227,27 @@ p.coll-cap {
     }
 
     body {
-        background-position: center right;
+        /* background-position: center right; */
     }
+}
+
+
+.sliderContainer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.sliderContainer .sliderItem {
+    width: 65px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top -80px center;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid #00a52c9c;
 }
