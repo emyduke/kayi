@@ -203,19 +203,23 @@ p.coll-cap {
     color: #fff;
 }
 
-/* .carousel{
-    
+
+
+
+.sliderContainer{
+    display: none;
 }
-.carousel div{
+
+.sliderContainer div{
     width: 300px;
     margin: 15px;
     text-align: center;
     border-radius: 8px;
 }
-.carousel div img{
+.sliderContainer div img{
     width: 100%;
     border-radius: 8px;
-} */
+}
 
 @media only screen and (max-width: 750px) {
     .element-right {
@@ -232,7 +236,9 @@ p.coll-cap {
 }
 
 
-.sliderContainer{
+
+
+/* .sliderContainer{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -250,4 +256,4 @@ p.coll-cap {
     margin-right: 10px;
     margin-left: 10px;
     border: 1px solid #00a52c9c;
-}
+} */
