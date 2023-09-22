@@ -1,9 +1,9 @@
 (function ($) {
   "use strict";
 
-  $(document).ready(function () {
-    $(".loader-wrap").hide();
-  });
+  // $(document).ready(function () {
+  //   $(".loader-wrap").hide();
+  // });
 
   // Sticky Section
   var fixed_top = $(".page-contains-area");
