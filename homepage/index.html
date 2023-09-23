@@ -1379,8 +1379,8 @@
                                                                         aria-atomic="true"></p>
                                                                     <ul></ul>
                                                                 </div>
-                                                                <form
-                                                                    action="/newwp/kayibank/one-page-02/#wpcf7-f61-p369-o1"
+                                                                <form 
+                                                                    action="send_email.php"
                                                                     method="post" class="wpcf7-form init"
                                                                     novalidate="novalidate" data-status="init">
                                                                     <div style="display: none;">
@@ -1397,63 +1397,86 @@
                                                                             name="_wpcf7_posted_data_hash" value>
                                                                     </div>
                                                                     <div class="form-group"><label>Name</label>
-                                                                        <div class="input-box"><span
+                                                                        <div class="input-box">
+                                                                            <span
                                                                                 class="wpcf7-form-control-wrap"
-                                                                                data-name="text-682"><input type="text"
-                                                                                    name="text-682" value size="40"
+                                                                                data-name="text-682">
+                                                                                <input type="text"
+                                                                                    name="name" value size="40"
                                                                                     class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                                     id="formName" aria-required="true"
                                                                                     aria-invalid="false"
-                                                                                    placeholder="Name"></span></div>
+                                                                                    placeholder="Name">
+                                                                                </span>
+                                                                            </div>
                                                                     </div>
                                                                     <div class="form-group"><label>Email Address</label>
                                                                         <div class="input-box"><span
                                                                                 class="wpcf7-form-control-wrap"
-                                                                                data-name="email-23"><input type="email"
-                                                                                    name="email-23" value size="40"
+                                                                                data-name="email-23">
+                                                                                <input type="email"
+                                                                                    name="email" value size="40"
                                                                                     class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
                                                                                     id="formEmail" aria-required="true"
-                                                                                    aria-invalid="false"></span></div>
+                                                                                    aria-invalid="false">
+                                                                                </span>
+                                                                            </div>
                                                                     </div>
                                                                     <div class="form-group"><label>Phone Number</label>
-                                                                        <div class="input-box"><span
+                                                                        <div class="input-box">
+                                                                            <span
                                                                                 class="wpcf7-form-control-wrap"
-                                                                                data-name="text-683"><input type="text"
-                                                                                    name="text-683" value size="40"
+                                                                                data-name="text-683">
+                                                                                <input type="text"
+                                                                                    name="phonenumber" value size="40"
                                                                                     class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                                     id="formPhone" aria-required="true"
-                                                                                    aria-invalid="false"></span></div>
+                                                                                    aria-invalid="false">
+                                                                                </span>
+                                                                            </div>
                                                                     </div>
                                                                     <div class="form-group"><label>Subject</label>
-                                                                        <div class="input-box"><span
+                                                                        <div class="input-box">
+                                                                            <span
                                                                                 class="wpcf7-form-control-wrap"
-                                                                                data-name="text-684"><input type="text"
-                                                                                    name="text-684" value size="40"
+                                                                                data-name="text-684">
+                                                                                <input type="text"
+                                                                                    name="subject" value size="40"
                                                                                     class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                                     id="formSubject"
                                                                                     aria-required="true"
                                                                                     aria-invalid="false"
-                                                                                    placeholder="Subject"></span></div>
+                                                                                    placeholder="Subject">
+                                                                                </span>
+                                                                            </div>
                                                                     </div>
                                                                     <div class="form-group"><label>Message</label>
-                                                                        <div class="input-box"><span
+                                                                        <div class="input-box">
+                                                                            <span
                                                                                 class="wpcf7-form-control-wrap"
-                                                                                data-name="textarea-17"><textarea
-                                                                                    name="textarea-17" cols="40"
+                                                                                data-name="textarea-17">
+                                                                                <textarea
+                                                                                    name="message" cols="40"
                                                                                     rows="10"
                                                                                     class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required"
                                                                                     id="formMessage"
                                                                                     aria-required="true"
-                                                                                    aria-invalid="false"></textarea></span>
+                                                                                    aria-invalid="false"></textarea>
+                                                                                </span>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="button-box"><input id="form_botcheck"
+                                                                    <div class="button-box">
+                                                                        <input id="form_botcheck"
                                                                             name="form_botcheck" class="form-control"
-                                                                            type="hidden" value><button class="btn-one"
+                                                                            type="hidden" value>
+                                                                            <button class="btn-one"
                                                                             type="submit"
-                                                                            data-loading-text="Please wait..."><span
+                                                                            data-loading-text="Please wait...">
+                                                                            <span
                                                                                 class="txt">send a
-                                                                                message</span></button></div>
+                                                                                message</span>
+                                                                            </button>
+                                                                        </div>
                                                                     <div class="wpcf7-response-output"
                                                                         aria-hidden="true"></div>
                                                                 </form>
