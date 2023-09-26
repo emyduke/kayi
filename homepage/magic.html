@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js no-svg">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/icon-light.png" type="image/x-icon">
+    <link rel="icon" href="images/icon-light.png" type="image/x-icon">
+    <!-- responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kayi | Banking Without Limits</title>
+    <meta name="robots" content="max-image-preview:large">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel="stylesheet" id="wp-block-library-css" href="css/style.min.css" type="text/css" media="all">
+    <style id="wp-block-library-theme-inline-css" type="text/css">
+        .wp-block-audio figcaption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+
+        .is-dark-theme .wp-block-audio figcaption {
+            color: hsla(0, 0%, 100%, .65)
+        }
+
+        .wp-block-audio {
+            margin: 0 0 1em
+        }
+
+        .wp-block-code {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-family: Menlo, Consolas, monaco, monospace;
+            padding: .8em 1em
+        }
+
+        .wp-block-embed figcaption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+
+        .is-dark-theme .wp-block-embed figcaption {
+            color: hsla(0, 0%, 100%, .65)
+        }
+
+        .wp-block-embed {
+            margin: 0 0 1em
+        }
+
+        .blocks-gallery-caption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+
+        .is-dark-theme .blocks-gallery-caption {
+            color: hsla(0, 0%, 100%, .65)
+        }
+
+        .wp-block-image figcaption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+
+        .is-dark-theme .wp-block-image figcaption {
+            color: hsla(0, 0%, 100%, .65)
+        }
+
+        .wp-block-image {
+            margin: 0 0 1em
+        }
+
+        .wp-block-pullquote {
+            border-bottom: 4px solid;
+            border-top: 4px solid;
+            color: currentColor;
+            margin-bottom: 1.75em
+        }
+
+        .wp-block-pullquote cite,
+        .wp-block-pullquote footer,
+        .wp-block-pullquote__citation {
+            color: currentColor;
+            font-size: .8125em;
+            font-style: normal;
+            text-transform: uppercase
+        }
+
+        .wp-block-quote {
+            border-left: .25em solid;
+            margin: 0 0 1.75em;
+            padding-left: 1em
+        }
+
+        .wp-block-quote cite,
+        .wp-block-quote footer {
+            color: currentColor;
+            font-size: .8125em;
+            font-style: normal;
+            position: relative
+        }
+
+        .wp-block-quote.has-text-align-right {
+            border-left: none;
+            border-right: .25em solid;
+            padding-left: 0;
+            padding-right: 1em
+        }
+
+        .wp-block-quote.has-text-align-center {
+            border: none;
+            padding-left: 0
+        }
+
+        .wp-block-quote.is-large,
+        .wp-block-quote.is-style-large,
+        .wp-block-quote.is-style-plain {
+            border: none
+        }
+
+        .wp-block-search .wp-block-search__label {
+            font-weight: 700
+        }
+
+        .wp-block-search__button {
+            border: 1px solid #ccc;
+            padding: .375em .625em
+        }
+
+        :where(.wp-block-group.has-background) {
+            padding: 1.25em 2.375em
+        }
+
+        .wp-block-separator.has-css-opacity {
+            opacity: .4
+        }
+
+        .wp-block-separator {
+            border: none;
+            border-bottom: 2px solid;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        .wp-block-separator.has-alpha-channel-opacity {
+            opacity: 1
+        }
+
+        .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+            width: 100px
+        }
+
+        .wp-block-separator.has-background:not(.is-style-dots) {
+            border-bottom: none;
+            height: 1px
+        }
+
+        .wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots) {
+            height: 2px
+        }
+
+        .wp-block-table {
+            margin: 0 0 1em
+        }
+
+        .wp-block-table td,
+        .wp-block-table th {
+            word-break: normal
+        }
+
+        .wp-block-table figcaption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+
+        .is-dark-theme .wp-block-table figcaption {
+            color: hsla(0, 0%, 100%, .65)
+        }
+
+        .wp-block-video figcaption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+
+        .is-dark-theme .wp-block-video figcaption {
+            color: hsla(0, 0%, 100%, .65)
+        }
+
+        .wp-block-video {
+            margin: 0 0 1em
+        }
+
+        .wp-block-template-part.has-background {
+            margin-bottom: 0;
+            margin-top: 0;
+            padding: 1.25em 2.375em
+        }
+    </style>
+    <style id="classic-theme-styles-inline-css" type="text/css">
+        /*! This file is auto-generated */
+        .wp-block-button__link {
+            color: #fff;
+            background-color: #32373c;
+            border-radius: 9999px;
+            box-shadow: none;
+            text-decoration: none;
+            padding: calc(.667em + 2px) calc(1.333em + 2px);
+            font-size: 1.125em
+        }
+
+        .wp-block-file__button {
+            background: #32373c;
+            color: #fff;
+            text-decoration: none
+        }
+    </style>
+    <style id="global-styles-inline-css" type="text/css">
+        body {
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--color--strong-yellow: #f7bd00;
+            --wp--preset--color--strong-white: #fff;
+            --wp--preset--color--light-black: #242424;
+            --wp--preset--color--very-light-gray: #797979;
+            --wp--preset--color--very-dark-black: #000000;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--font-size--small: 10px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 24px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--font-size--normal: 15px;
+            --wp--preset--font-size--huge: 36px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        }
+
+        :where(.is-layout-flex) {
+            gap: 0.5em;
+        }
+
+        :where(.is-layout-grid) {
+            gap: 0.5em;
+        }
+
+        body .is-layout-flow>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-flow>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-flow>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-constrained>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-constrained>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+            max-width: var(--wp--style--global--content-size);
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignwide {
+            max-width: var(--wp--style--global--wide-size);
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        body .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        body .is-layout-flex>* {
+            margin: 0;
+        }
+
+        body .is-layout-grid {
+            display: grid;
+        }
+
+        body .is-layout-grid>* {
+            margin: 0;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        .wp-block-navigation a:where(:not(.wp-element-button)) {
+            color: inherit;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        .wp-block-pullquote {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
+    <link rel="stylesheet" id="contact-form-7-css" href="css/styles.css" type="text/css" media="all">
+    <link rel="stylesheet" id="animate-css" href="css/animate.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="custom-animate-css" href="css/custom-animate.css" type="text/css" media="all">
+    <link rel="stylesheet" id="bootstrap-css" href="css/bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="jquery-bxslider-css" href="css/jquery.bxslider.css" type="text/css" media="all">
+    <link rel="stylesheet" id="kayibank-font-awesome-all-css" href="css/font-awesome-all.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="jquery-magnific-popup-css" href="css/jquery.magnific-popup.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="kayibank-jquery-ui-css" href="css/jquery-ui.css" type="text/css" media="all">
+    <link rel="stylesheet" id="kayibank-nice-select-css" href="css/nice-select.css" type="text/css" media="all">
+    <link rel="stylesheet" id="odometer-css" href="css/odometer.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="owl-carousel-css" href="css/owl.carousel.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="owl-theme-default-css" href="css/owl.theme.default.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="kayibank-swiper-css" href="css/swiper.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="vegas-css" href="css/vegas.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="style-css" href="css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="aos-css" href="css/aos.css" type="text/css" media="all">
+    <link rel="stylesheet" id="kayibank-header-section-css" href="css/01-header-section.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="kayibank-banner-section-css" href="css/02-banner-section.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="kayibank-about-section-css" href="css/03-about-section.css" type="text/css" media="all">
+    <link rel="stylesheet" id="kayibank-fact-counter-section-css" href="css/04-fact-counter-section.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="kayibank-testimonial-section-css" href="css/05-testimonial-section.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="kayibank-partner-section-css" href="css/06-partner-section.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="kayibank-footer-section-css" href="css/07-footer-section.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="kayibank-blog-section-css" href="css/08-blog-section.css" type="text/css" media="all">
+    <link rel="stylesheet" id="kayibank-breadcrumb-section-css" href="css/09-breadcrumb-section.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="kayibank-contact-css" href="css/10-contact.css" type="text/css" media="all">
+    <link rel="stylesheet" id="kayibank-main-css" href="css/style_1.css" type="text/css" media="all">
+    <link rel="stylesheet" id="kayibank-main-style-css" href="css/style_2.css" type="text/css" media="all">
+    <link rel="stylesheet" id="color-1-css" href="css/color-1.css" type="text/css" media="all">
+    <link rel="stylesheet" id="kayibank-custom-css" href="css/custom.css" type="text/css" media="all">
+    <link rel="stylesheet" id="kayibank-responsive-css" href="css/responsive.css" type="text/css" media="all">
+    <link rel="stylesheet" id="kayibank-theme-fonts-css"
+        href="https://fonts.googleapis.com/css?family=Manrope%3Awght%400%2C300%2C0%2C400%2C0%2C500%2C0%2C600%2C0%2C700%2C0%2C800%26display%3Dswap%7CDM+Sans%3Aital%2Cwght%400%2C400%2C0%2C500%2C0%2C700%2C1%2C400%2C1%2C500%2C1%2C700%26display%3Dswap&amp;subset=latin%2Clatin-ext"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-icons-css" href="css/elementor-icons.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-frontend-css" href="css/frontend-lite.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-post-9-css" href="css/post-9.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-global-css" href="css/global.css" type="text/css" media="all">
+    <link rel="stylesheet" id="google-fonts-1-css"
+        href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.3.1"
+        type="text/css" media="all">
+    <style>
+        @keyframes Zzoom {
+
+            0% {
+                opacity: 0.8;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 1;
+                transform: scale(1.2);
+                /* Zoom in to 120% */
+            }
+
+            100% {
+                opacity: 0.8;
+                transform: scale(1);
+                /* Zoom back to 100% */
+            }
+        }
+
+        .zoom-element {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #ffffff;
+            margin: 0 auto 45px auto;
+            animation-name: Zzoom;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            -webkit-animation-name: Zzoom;
+            -webkit-animation-duration: 3s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: ease-in-out;
+
+        }
+
+        .zoom-element img {
+            width: 50px;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .slide-single-features {
+                top: 60%;
+                left: 50px
+            }
+
+            .slide-single-features.two {
+                bottom: 7%;
+            }
+
+            .main-slider-style2 .main-slider-content .big-title h2 br {
+                display: block;
+            }
+
+            .main-slider-style2 .main-slider-content .big-title h2 {
+                font-size: 33px;
+            }
+
+            .main-slider-style2 .main-slider-content .bottom-text p {
+                font-size: x-small;
+            }
+
+            .zoom-element {
+                height: 8em;
+                width: 8em;
+            }
+
+            .header-logon-box .icon {
+                display: none;
+            }
+
+            .header-logon-box {
+                display: initial !important;
+                padding-left: 0;
+            }
+
+
+        }
+
+        @media screen and (max-width: 500px) {
+            .zoom-element {
+                height: 7em;
+                width: 7em;
+            }
+        }
+
+
+
+        body {
+            margin: 0;
+            padding: 0;
+            /* font-family: Arial, sans-serif; */
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+            min-height: 100vh;
+            animation: backgroundTransition 10s linear infinite alternate;
+        }
+
+        @keyframes backgroundTransition {
+            0% {
+                background: radial-gradient(at 70.7333vw 36.2933vh, rgb(23, 167, 209) 0%, rgb(102, 71, 226) 96.2933%);
+            }
+
+            100% {
+                background: radial-gradient(at 70.7333vw 36.2933vh, rgb(102, 71, 226) 0%, rgb(23, 167, 209) 96.2933%);
+            }
+        }
+
+        .coming-soon-container {
+            text-align: center;
+            /* background-color: #ffffff; */
+            border-radius: 10px;
+            padding: 20px;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .coming-soon-container h3 {
+            color: #ffffffdc;
+        }
+
+        .coming-soon-container p {
+            color: #ffffffdc;
+            margin-top: 20px;
+        }
+
+        .coming-soon-container h2 {
+            font-size: 4.5rem;
+            color: #fff !important;
+            margin-top: 20px;
+        }
+
+        .countdown {
+            display: flex;
+            justify-content: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            background: linear-gradient(135deg, #a548ff, #3816c8 50%, #3c0f78)
+        }
+
+        .countdown-item {
+            font-size: 1.5rem;
+            color: #fff;
+        }
+
+        .countdown-number,
+        .countdown-label {
+            font-weight: bold;
+        }
+
+        .countdown-label {
+            font-size: 1.5rem;
+            color: #fff;
+        }
+
+        .btn-one{
+            border-radius: 8px!important;
+        }
+    </style>
+    <script type="text/javascript" src="js/jquery.min.js" id="jquery-core-js"></script>
+
+
+    <script type="text/javascript" src="js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+</head>
+
+
+<body
+    class="page-template page-template-tpl-default-elementor page-template-tpl-default-elementor-php page page-id-369 menu-layer elementor-default elementor-kit-9 elementor-page elementor-page-369">
+
+
+
+
+    <!-- Start preloader -->
+    <div class="loader-wrap">
+        <div class="preloader">
+            <div class="preloader-close">x</div>
+            <div id="handle-preloader" class="handle-preloader">
+                <div class="animation-preloader">
+                    <div class="spinner-container">
+                        <div class="zoom-element">
+                            <img src="images/icon-light.png" alt="">
+                        </div>
+
+                    </div>
+                    <div class="txt-loading">
+                        <span data-text-preloader="K" class="letters-loading">
+                            K
+                        </span>
+                        <span data-text-preloader="A" class="letters-loading">
+                            A
+                        </span>
+                        <span data-text-preloader="Y" class="letters-loading">
+                            Y
+                        </span>
+                        <span data-text-preloader="I" class="letters-loading">
+                            I
+                        </span>
+                        <span data-text-preloader="A" class="letters-loading">
+                            A
+                        </span>
+                        <span data-text-preloader="P" class="letters-loading">
+                            P
+                        </span>
+                        <span data-text-preloader="P" class="letters-loading">
+                            P
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End preloader -->
+
+
+    <div class="countdown">
+        <div class="countdown-item">
+            <span class="countdown-number" id="days">00</span><span class="countdown-label">D :&nbsp;</span>
+        </div>
+        <div class="countdown-item">
+            <span class="countdown-number" id="hours">00</span><span class="countdown-label">H :&nbsp;</span>
+        </div>
+        <div class="countdown-item">
+            <span class="countdown-number" id="minutes">00</span><span class="countdown-label">M :&nbsp;</span>
+        </div>
+        <div class="countdown-item">
+            <span class="countdown-number" id="seconds">00</span><span class="countdown-label">S</span>
+        </div>
+    </div>
+
+    <div class="coming-soon-container">
+        <h3>October 5</h3>
+        <h2>Kayi is coming</h2>
+        <p>Be among the first to discover what's new.</p>
+        <a class="btn-one mt-4" href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR
+        VERSION:2.0
+        PRODID:-//KAYI BANK//LAUNCH//EN
+        BEGIN:VEVENT
+        UID:kayiapplaunch056789
+        DTSTAMP:20230922T120000Z
+        DTSTART:20231005T090000Z
+        DTEND:20231005T120000Z
+        SUMMARY:KAYI BANK LAUNCH
+        DESCRIPTION:Banking Without Limit.
+        LOCATION:Kano Nigeria
+        END:VEVENT
+        END:VCALENDAR">
+            <span aria-hidden="true" class="qA-OWJy EtEoeSn"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.6 6.502c-1.69-.147-2.62-.739-3.116-1.913-.179-.423-.304-.918-.384-1.5 0-.1-.1-.2-.2-.2s-.2.1-.2.2c-.08.582-.205 1.077-.384 1.5C4.821 5.763 3.891 6.355 2.2 6.502c-.1 0-.2.1-.2.2s.1.2.2.2c2.1.4 3.2 1.187 3.5 3.387 0 .1.1.2.2.2s.2-.1.2-.2c.3-2.2 1.4-2.987 3.5-3.387.1 0 .2-.1.2-.2s-.1-.2-.2-.2z" fill="url(#_122639694__paint0_linear_2074_8936)"></path><path d="M19.469 12.753c-4-.8-5.726-2.728-6.526-6.628a.493.493 0 00-.474-.372.493.493 0 00-.475.376c-.009.007.007-.014 0 0-.8 4-2.625 5.824-6.525 6.624a.5.5 0 000 1c4 .8 5.717 2.688 6.517 6.588a.493.493 0 00.483.412.493.493 0 00.477-.387c-.005.01.006-.007 0 0 .8-4 2.623-5.813 6.523-6.613a.5.5 0 000-1z" fill="url(#_122639694__paint1_linear_2074_8936)"></path><path d="M21.465 6.689c0-.085-.061-.14-.144-.156l-.056-.014c-1.168-.304-1.876-1.024-2.073-2.107a.153.153 0 00-.153-.153v.003c-.084 0-.14.062-.156.145l-.013.055c-.305 1.169-1.024 1.877-2.108 2.074a.153.153 0 00-.153.153h.004c0 .084.062.14.145.156l.055.013c1.168.304 1.876 1.024 2.073 2.108 0 .084.069.152.153.152v-.003c.084 0 .14-.062.156-.145l.014-.055c.304-1.169 1.023-1.877 2.107-2.074a.15.15 0 00.15-.152z" fill="url(#_122639694__paint2_linear_2074_8936)"></path><path d="M7.919 19.604c-1-.3-1.582-.782-1.782-1.782a.218.218 0 00-.436 0c-.3 1-.782 1.582-1.782 1.782a.218.218 0 000 .436c1 .3 1.582.782 1.782 1.782a.218.218 0 10.436 0c.3-1 .782-1.582 1.782-1.782a.218.218 0 000-.436z" fill="url(#_122639694__paint3_linear_2074_8936)"></path><defs><linearGradient id="_122639694__paint0_linear_2074_8936" x1="-7.733" y1="12.464" x2="11.416" y2="31.927" gradientUnits="userSpaceOnUse"><stop stop-color="#03A5AB"></stop><stop offset="1" stop-color="#8B3DFF"></stop></linearGradient><linearGradient id="_122639694__paint1_linear_2074_8936" x1="-7.733" y1="12.464" x2="11.416" y2="31.927" gradientUnits="userSpaceOnUse"><stop stop-color="#03A5AB"></stop><stop offset="1" stop-color="#8B3DFF"></stop></linearGradient><linearGradient id="_122639694__paint2_linear_2074_8936" x1="-7.733" y1="12.464" x2="11.416" y2="31.927" gradientUnits="userSpaceOnUse"><stop stop-color="#03A5AB"></stop><stop offset="1" stop-color="#8B3DFF"></stop></linearGradient><linearGradient id="_122639694__paint3_linear_2074_8936" x1="-7.733" y1="12.464" x2="11.416" y2="31.927" gradientUnits="userSpaceOnUse"><stop stop-color="#03A5AB"></stop><stop offset="1" stop-color="#8B3DFF"></stop></linearGradient></defs></svg></span>
+            <span class="txt">Add to calendar</span>
+        </a>
+    </div>
+
+
+
+    <script type="text/javascript" src="js/index.js" id="swv-js"></script>
+
+
+    <script type="text/javascript" src="js/index_1.js" id="contact-form-7-js"></script>
+    <script type="text/javascript" src="js/core.min.js" id="jquery-ui-core-js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js" id="bootstrap-bundle-js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.min.js" id="jquery-bxslider-js"></script>
+    <script type="text/javascript" src="js/jquery.circleType.js" id="jquery-circleType-js"></script>
+    <script type="text/javascript" src="js/jquery.lettering.min.js" id="jquery-lettering-js"></script>
+    <script type="text/javascript" src="js/isotope.js" id="isotope-js"></script>
+    <script type="text/javascript" src="js/jquery.appear.min.js" id="jquery-appear-js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js" id="jquery-magnific-popup-js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js" id="jquery-ui-js"></script>
+
+    <script type="text/javascript" src="js/jquery.nice-select.min.js" id="jquery-nice-select-js"></script>
+    <script type="text/javascript" src="js/odometer.min.js" id="odometer-js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js" id="owl-carousel-js"></script>
+    <script type="text/javascript" src="js/swiper.min.js" id="kayibank-swiper-js"></script>
+    <script type="text/javascript" src="js/vegas.min.js" id="vegas-js"></script>
+    <script type="text/javascript" src="js/wNumb.min.js" id="wnumb-js"></script>
+    <script type="text/javascript" src="js/wow.js" id="wow-js"></script>
+    <script type="text/javascript" src="js/jquery.paroller.min.js" id="jquery-paroller-js"></script>
+    <script type="text/javascript" src="js/jquery.polyglot.language.switcher.js"
+        id="jquery-polyglot-language-js"></script>
+    <script type="text/javascript" src="js/aos.js" id="aos-js"></script>
+    <script type="text/javascript" src="js/pagenav.js" id="pagenav-js"></script>
+    <script type="text/javascript" src="js/knob.js" id="knob-js"></script>
+    <script type="text/javascript" src="js/custom.js" id="kayibank-main-custom-js"></script>
+    <script type="text/javascript" src="js/comment-reply.min.js" id="comment-reply-js"></script>
+    <script type="text/javascript" defer src="js/forms.js" id="mc4wp-forms-api-js"></script>
+    <script type="text/javascript" src="js/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script>
+    <script type="text/javascript" src="js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
+    <script type="text/javascript" src="js/waypoints.min.js" id="elementor-waypoints-js"></script>
+
+
+    <script>
+        function updateCountdown() {
+            const now = new Date();
+            const launchDate = new Date("2023-10-05T00:00:00"); // Set your launch date here
+
+            const timeDifference = launchDate - now;
+
+            const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+            document.getElementById("days").textContent = days < 10 ? `0${days}` : days;
+            document.getElementById("hours").textContent = hours < 10 ? `0${hours}` : hours;
+            document.getElementById("minutes").textContent = minutes < 10 ? `0${minutes}` : minutes;
+            document.getElementById("seconds").textContent = seconds < 10 ? `0${seconds}` : seconds;
+        }
+
+        setInterval(updateCountdown, 1000);
+
+    </script>
+
+</body>
+
+</html>
