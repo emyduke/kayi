@@ -763,11 +763,15 @@
 
         @keyframes backgroundTransition {
             0% {
-                background: radial-gradient(at 70.7333vw 36.2933vh, rgb(23, 167, 209) 0%, rgb(102, 71, 226) 96.2933%);
+                /* background: radial-gradient(at 70.7333vw 36.2933vh, rgb(23, 167, 209) 0%, rgb(102, 71, 226) 96.2933%); */
+                background: rgb(0,165,44);
+                background: linear-gradient(42deg, rgba(0,165,44,1) 0%, rgba(255,255,255,1) 100%);
             }
 
             100% {
-                background: radial-gradient(at 70.7333vw 36.2933vh, rgb(102, 71, 226) 0%, rgb(23, 167, 209) 96.2933%);
+                /* background: radial-gradient(at 70.7333vw 36.2933vh, rgb(102, 71, 226) 0%, rgb(23, 167, 209) 96.2933%); */
+                background: rgb(0,165,44);
+                background: linear-gradient(42deg, rgba(255,255,255,1) 0%, rgba(0,165,44,1) 100%);
             }
         }
 
@@ -786,17 +790,18 @@
         }
 
         .coming-soon-container h3 {
-            color: #ffffffdc;
+            color: #000;
         }
 
         .coming-soon-container p {
-            color: #ffffffdc;
+            color: #000;
             margin-top: 20px;
         }
 
         .coming-soon-container h2 {
             font-size: 4.5rem;
-            color: #fff !important;
+            font-weight: 900;
+            color: #000 !important;
             margin-top: 20px;
         }
 
@@ -805,7 +810,7 @@
             justify-content: center;
             padding-top: 15px;
             padding-bottom: 15px;
-            background: linear-gradient(135deg, #a548ff, #3816c8 50%, #3c0f78)
+            background: linear-gradient(135deg, #68ff90, #0a4e1c 50%, #072f11)
         }
 
         .countdown-item {
@@ -899,7 +904,7 @@
 
     <div class="coming-soon-container">
         <h3>October 5</h3>
-        <h2>Kayi is coming</h2>
+        <h2><img src="images/logo-1.png" loading="lazy" style="width: 210px" alt="" > <br class="d-md-none"> is coming</h2>
         <p>Be among the first to discover what's new.</p>
         <a class="btn-one mt-4" href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR
         VERSION:2.0
